@@ -6,6 +6,7 @@ edition = "2021"
 license = "MIT"
 description = "Web-oriented 64-bit SimHash with weighted features and Google-paper-style lookup tables"
 readme = "README.md"
+repository = "https://github.com/artemis-watch/web-simhash-rs"
 
 [lib]
 name = "web_simhash"
