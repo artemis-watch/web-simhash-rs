@@ -1,0 +1,14 @@
+[package]
+name = "web-simhash"
+version = "0.1.0"
+authors = ["Josh Terrill <josh@hacked.codes>"]
+edition = "2021"
+license = "MIT"
+description = "Web-oriented 64-bit SimHash with weighted features and Google-paper-style lookup tables"
+readme = "README.md"
+
+[lib]
+name = "web_simhash"
+path = "src/lib.rs"
+
+[dependencies]
