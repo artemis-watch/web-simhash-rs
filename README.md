@@ -4,6 +4,14 @@ a small, dependency-free Rust library for web-page near-duplicate detection. It 
 weighted document features, 64-bit fingerprints, Hamming distance comparison,
 and a multi-table index for finding fingerprints within a small bit distance.
 
+## Install
+
+```bash
+cargo add web-simhash
+```
+
+## Example
+
 ```rust
 use web_simhash::{SimHash64, SimHashIndex, WebFeatureExtractor};
 
